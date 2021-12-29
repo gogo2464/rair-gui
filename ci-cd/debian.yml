@@ -1,0 +1,25 @@
+name: tests
+language: rust
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  os:
+    -linux
+    -osx
+    -windows
+  arch: amd64
+  include:
+    stage: install-dependencies
+    script:
+      - sudo apt-get install libgtk-3-dev ;
+    stage: build
+    script:
+      - cargo install --path . ;
+    stage: run-tests
+    script:
+      - cargo test ;
