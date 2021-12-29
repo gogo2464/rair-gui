@@ -1,0 +1,17 @@
+[package]
+name = "rgui"
+version = "0.1.0"
+authors = ["gogo <gogo246475@gmail.com>"]
+license = "GPL-3.0-or-later"
+repository = "https://github.com/gogo2464/rair-gui"
+keywords = ["Parser", "Graphical", "User", "Interface"]
+description = "IO subsystem for RAIR"
+categories = ["GUI"]
+readme = "readme.md"
+
+
+
+[dependencies]
+pest = "2.1"
+pest_derive = "2.1"
+err-derive = "0.2"

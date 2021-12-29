@@ -1,8 +1,36 @@
-[package]
-name = "rair-gui"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+members = [
+  "rgui"
+]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[package]
+name = "rair"
+description = "Reverse Engineering framework written in rust."
+version = "0.1.0"
+authors = ["gogo <gogo246475@gmail.com>"]
+license = "GPL-3.0-or-later"
+repository = "https://github.com/gogo2464/rair-gui"
+readme = "readme.md"
+keywords = ["Reverse Engineering", "Assembly", "Disassembly", "Malware", "Static Analysis"]
+categories = ["GUI", "Reverse-Engineering"]
+
+[[bin]]
+name = "rair-gui"
+path = "src/main.rs"
 
 [dependencies]
+clap = {version = "2.33", features = ["yaml"]}
+rustyline = "5.0"
+rustyline-derive = "0.2"
+app_dirs = "1.2"
+yansi = "0.5"
+parking_lot = "0.10"
+druid = "0.7.0"
+
+rgui = {path = "rgui"}
+rtrees = {git = "https://github.com/rair-project/rair-core"}
+rair-io = {git = "https://github.com/rair-project/rair-core"}
+rcore = {git = "https://github.com/rair-project/rair-core"}
+#rtrees = {path = "../rair-core/rtrees"}
+#rio = {path = "../rair-core/rio"}
+#rcore = {path = "../rair-core"}
