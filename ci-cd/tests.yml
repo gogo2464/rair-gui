@@ -22,4 +22,7 @@ jobs:
       - cargo install --path . ;
     stage: run-tests
     script:
-      - cargo test ;
+      - cargo test --all ;
+    stage: run documentation
+    script:
+      - cargo doc ;
