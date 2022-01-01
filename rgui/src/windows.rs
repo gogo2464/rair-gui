@@ -17,7 +17,7 @@ pub fn build_windows_to_open_binary() -> impl Widget<()> {
 /// Builds everything.
 
 pub fn build_main_gui() -> Result<(), PlatformError> {
-    let start_up_windows = WindowDesc::new(build_ui());
+    let start_up_windows = WindowDesc::new(build_windows_to_open_binary());
     AppLauncher::with_window(start_up_windows).launch(())?;
     Ok(())
 }
