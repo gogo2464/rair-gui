@@ -1,5 +1,5 @@
 extern crate rgui;
-use rgui::windows::build_main_gui;
+use rgui::window_open_file::build_main_gui;
 
 /// # Rair-GUI
 ///
