@@ -12,7 +12,7 @@ license = "GPL-3.0-or-later"
 repository = "https://github.com/gogo2464/rair-gui"
 readme = "readme.md"
 keywords = ["Assembly", "Disassembly", "Malware"]
-categories = ["gui", "Reverse-Engineering"]
+categories = ["gui"]
 
 [[bin]]
 name = "rair-gui"
