@@ -5,7 +5,7 @@ authors = ["gogo <gogo246475@gmail.com>"]
 license = "GPL-3.0-or-later"
 repository = "https://github.com/gogo2464/rair-gui"
 keywords = ["Parser", "Graphical", "User", "Interface"]
-description = "IO subsystem for RAIR"
+description = "GUI subsystem for RAIR"
 categories = ["gui"]
 readme = "readme.md"
 
