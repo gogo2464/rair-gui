@@ -4,7 +4,7 @@ members = [
 ]
 
 [package]
-name = "rair"
+name = "rair-gui"
 description = "Reverse Engineering framework written in rust."
 version = "0.1.0"
 authors = ["gogo <gogo246475@gmail.com>"]
