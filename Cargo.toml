@@ -11,8 +11,8 @@ authors = ["gogo <gogo246475@gmail.com>"]
 license = "GPL-3.0-or-later"
 repository = "https://github.com/gogo2464/rair-gui"
 readme = "readme.md"
-keywords = ["Reverse Engineering", "Assembly", "Disassembly", "Malware", "Static Analysis"]
-categories = ["GUI", "Reverse-Engineering"]
+keywords = ["Assembly", "Disassembly", "Malware", "Static Analysis"]
+categories = ["gui", "Reverse-Engineering"]
 
 [[bin]]
 name = "rair-gui"
