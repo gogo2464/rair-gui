@@ -6,7 +6,7 @@ license = "GPL-3.0-or-later"
 repository = "https://github.com/gogo2464/rair-gui"
 keywords = ["Parser", "Graphical", "User", "Interface"]
 description = "IO subsystem for RAIR"
-categories = ["GUI"]
+categories = ["gui"]
 readme = "readme.md"
 
 

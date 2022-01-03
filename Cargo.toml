@@ -26,10 +26,11 @@ app_dirs = "1.2"
 yansi = "0.5"
 parking_lot = "0.10"
 
-rgui = {path = "rgui"}
-rtrees = {git = "https://github.com/rair-project/rair-core"}
-rair-io = {git = "https://github.com/rair-project/rair-core"}
-rcore = {git = "https://github.com/rair-project/rair-core"}
+rgui = "0.1.0"
+#{path = "rgui"}
+rtrees = "0.1.0"
+rair-io = "0.1.0"
+rcore = "0.1.0"
 #rtrees = {path = "../rair-core/rtrees"}
 #rio = {path = "../rair-core/rio"}
 #rcore = {path = "../rair-core"}
