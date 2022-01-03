@@ -27,10 +27,6 @@ yansi = "0.5"
 parking_lot = "0.10"
 
 rgui = "0.1.0"
-#{path = "rgui"}
 rtrees = "0.1.0"
 rair-io = "0.1.0"
 rcore = "0.1.0"
-#rtrees = {path = "../rair-core/rtrees"}
-#rio = {path = "../rair-core/rio"}
-#rcore = {path = "../rair-core"}
