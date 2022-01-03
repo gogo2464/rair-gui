@@ -15,4 +15,4 @@ readme = "readme.md"
 pest = "2.1"
 pest_derive = "2.1"
 err-derive = "0.2"
-druid = { git = "https://github.com/linebender/druid.git" }
+druid = { version = "0.7.0", features = ["png"] }
