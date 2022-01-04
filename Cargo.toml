@@ -6,7 +6,7 @@ members = [
 [package]
 name = "rair-gui"
 description = "Reverse Engineering framework written in rust."
-version = "0.1.0"
+version = "0.1.1"
 authors = ["gogo <gogo246475@gmail.com>"]
 license = "GPL-3.0-or-later"
 repository = "https://github.com/gogo2464/rair-gui"
@@ -26,7 +26,7 @@ app_dirs = "1.2"
 yansi = "0.5"
 parking_lot = "0.10"
 
-rgui = "0.1.0"
+rgui = {path = "rgui"}
 rtrees = "0.1.0"
 rair-io = "0.1.0"
 rcore = "0.1.0"

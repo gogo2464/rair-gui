@@ -1,6 +1,6 @@
 [package]
 name = "rgui"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["gogo <gogo246475@gmail.com>"]
 license = "GPL-3.0-or-later"
 repository = "https://github.com/gogo2464/rair-gui"
@@ -15,4 +15,10 @@ readme = "readme.md"
 pest = "2.1"
 pest_derive = "2.1"
 err-derive = "0.2"
-druid = { version = "0.7.0", features = ["png"] }
+#druid = { git = "https://github.com/linebender/druid", features = ["png"] }
+druid-widget-nursery = { git = "https://github.com/linebender/druid-widget-nursery" }
+druid = { git = "https://github.com/linebender/druid", rev = "2f5beb8faba648c170a485b8d6a00d0d991a1737", features = ["png"] }
+
+[patch.crates-io.druid]
+git = "https://github.com/linebender/druid"
+rev = "2f5beb8faba648c170a485b8d6a00d0d991a1737"
